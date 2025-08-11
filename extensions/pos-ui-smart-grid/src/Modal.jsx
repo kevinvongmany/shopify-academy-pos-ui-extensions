@@ -4,6 +4,12 @@ import { CartDiscountType } from '@shopify/ui-extensions/point-of-sale'
 import { Text, Screen, ScrollView, Navigator, useApi, reactExtension } from '@shopify/ui-extensions-react/point-of-sale'
 
 const Modal = () => {
+  const api = useApi('pos.home.modal.render');
+  
+  const onButtonPress = (type, title, amount) => {
+    api.cart.applyCartDiscount(type, title, amount);
+    api.toast.show("Discount applied successfully!");
+  }
   
   return (
     <Navigator>
