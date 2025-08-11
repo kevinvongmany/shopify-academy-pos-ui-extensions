@@ -3,30 +3,30 @@
 client_id = "6ad8e0365f509e29840629af2af059eb"
 name = "pos-ui-extension-app"
 handle = "pos-ui-extension-app-2"
-application_url = "https://treating-gold-z-fifty.trycloudflare.com"
+application_url = "https://monster-tomatoes-desert-unions.trycloudflare.com"
 embedded = true
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
+include_config_on_deploy = true
 
 [webhooks]
 api_version = "2025-07"
 
   [[webhooks.subscriptions]]
-  topics = [ "app/uninstalled" ]
-  uri = "/webhooks/app/uninstalled"
-
-  [[webhooks.subscriptions]]
   topics = [ "app/scopes_update" ]
   uri = "/webhooks/app/scopes_update"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://treating-gold-z-fifty.trycloudflare.com/auth/callback", "https://treating-gold-z-fifty.trycloudflare.com/auth/shopify/callback", "https://treating-gold-z-fifty.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://monster-tomatoes-desert-unions.trycloudflare.com/auth/callback", "https://monster-tomatoes-desert-unions.trycloudflare.com/auth/shopify/callback", "https://monster-tomatoes-desert-unions.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
