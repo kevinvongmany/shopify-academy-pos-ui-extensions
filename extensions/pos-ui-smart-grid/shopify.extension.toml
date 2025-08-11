@@ -4,10 +4,10 @@ api_version = "2025-07"
 
 [[extensions]]
 type = "ui_extension"
-name = "pos-ui-smart-grid"
+name = "Loyalty discount"
 
-handle = "pos-ui-smart-grid"
-description = "A react POS UI extension"
+handle = "loyalty-discount"
+description = "Add loyalty discount"
 
 # Controls where in POS your extension will be injected,
 # and the file that contains your extension’s source code.

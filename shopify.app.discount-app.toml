@@ -1,0 +1,24 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "6c1b527b1f6c5126f8928a55b7c58614"
+name = "discount-app"
+handle = "discount-app-219"
+application_url = "https://launched-christopher-butter-federal.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-07"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = ["https://launched-christopher-butter-federal.trycloudflare.com/auth/callback", "https://launched-christopher-butter-federal.trycloudflare.com/auth/shopify/callback", "https://launched-christopher-butter-federal.trycloudflare.com/api/auth/callback"]
+
+[pos]
+embedded = false
