@@ -1,8 +1,10 @@
 import React from 'react'
 
+import { CartDiscountType } from '@shopify/ui-extensions/point-of-sale'
 import { Text, Screen, ScrollView, Navigator, reactExtension } from '@shopify/ui-extensions-react/point-of-sale'
 
 const Modal = () => {
+  
   return (
     <Navigator>
       <Screen name="HelloWorld" title="Hello World!">
