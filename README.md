@@ -2,6 +2,8 @@
 
 This repository is to track progress for a Shopify Academy tutorial on creating POS UI extensions on a dev environment within Shopify.
 
+## Resources
+
 1. [Getting started](https://shopify.dev/docs/api/pos-ui-extensions/latest/getting-started)
 2. [Creating an example discount extension (in JS React)](https://shopify.dev/docs/apps/build/pos/build-discount-extension?extension=react)
 
