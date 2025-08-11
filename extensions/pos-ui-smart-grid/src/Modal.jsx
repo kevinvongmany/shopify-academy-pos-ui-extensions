@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { CartDiscountType } from '@shopify/ui-extensions/point-of-sale'
 import { Text, Screen, ScrollView, Navigator, useApi, reactExtension } from '@shopify/ui-extensions-react/point-of-sale'
 
 const Modal = () => {
