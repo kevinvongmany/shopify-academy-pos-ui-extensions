@@ -12,7 +12,7 @@ const Modal = () => {
   
   return (
     <Navigator>
-      <Screen name="HelloWorld" title="Hello World!">
+      <Screen name="Discounts" title="Available Discounts!">
         <ScrollView>
           <Text>Welcome to the extension!</Text>
         </ScrollView>
