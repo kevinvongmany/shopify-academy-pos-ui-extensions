@@ -1,3 +1,10 @@
+# Shopify Academy POS UI Extension
+
+This repository is to track progress for a Shopify Academy tutorial on creating POS UI extensions on a dev environment within Shopify.
+
+1. [Getting started](https://shopify.dev/docs/api/pos-ui-extensions/latest/getting-started)
+2. [Creating an example discount extension (in JS React)](https://shopify.dev/docs/apps/build/pos/build-discount-extension?extension=react)
+
 # Shopify App Template - Remix
 
 This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using the [Remix](https://remix.run) framework.
